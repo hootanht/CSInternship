@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Step01", "Step01", "{08D0BE5F-546A-44F7-AE67-5B856B09F32B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "Step01\BubbleSort\BubbleSort.csproj", "{4D1E2850-7E61-4A59-A964-AE3A9F701537}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D1E2850-7E61-4A59-A964-AE3A9F701537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1E2850-7E61-4A59-A964-AE3A9F701537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1E2850-7E61-4A59-A964-AE3A9F701537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1E2850-7E61-4A59-A964-AE3A9F701537}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D1E2850-7E61-4A59-A964-AE3A9F701537} = {08D0BE5F-546A-44F7-AE67-5B856B09F32B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7805328D-46DB-4CBD-9BF1-39D753729FC3}
+	EndGlobalSection
+EndGlobal
