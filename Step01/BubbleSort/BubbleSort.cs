@@ -8,7 +8,7 @@ namespace BubbleSort
 {
     public class BubbleSort
     {
-        #region Bubble Sort
+        #region Bubble Sort Implementation
         /// <summary>
         /// Sort your array in bubble sort algorithm
         /// </summary>

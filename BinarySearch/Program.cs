@@ -54,7 +54,7 @@
         for (int i = 0; i < 10; i++)
         {
             //append random number to array index with value between 0 and 100
-            array[i] = random.Next(1, 10);
+            array[i] = random.Next(1, 100);
         }
         return array;
     }
