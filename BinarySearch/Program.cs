@@ -1,6 +1,4 @@
-﻿using BubbleSort;
-
-public class Program
+﻿public class Program
 {
     #region Main Method
     public static void Main(string[] args)
@@ -12,12 +10,18 @@ public class Program
         //Print random array (unsorted)
         PrintArray(randomArray);
 
-        //Call bubble sort method
-        var result = BubbleSort.BubbleSort.Sort(randomArray);
+        //Sort random array with bubble sort
+        var sortedArray = BubbleSort.BubbleSort.Sort(randomArray);
 
-        Console.WriteLine("\n\nSorted Array :");
         //Print bubble sort array (sorted)
-        PrintArray(result);
+        Console.WriteLine("\n\nSorted Array :");
+        PrintArray(sortedArray);
+
+        //Call binary search method , mentor my example is 5
+        Console.WriteLine("\n\nResult is :");
+
+        BinarySearch.BinarySearch.Search(sortedArray, 5, 0, (0 + sortedArray.Length - 1)/2, sortedArray.Length - 1);
+
     }
     #endregion
 
@@ -50,12 +54,9 @@ public class Program
         for (int i = 0; i < 10; i++)
         {
             //append random number to array index with value between 0 and 100
-            array[i] = random.Next(1, 100);
+            array[i] = random.Next(1, 10);
         }
         return array;
     }
     #endregion
-
-
-
 }
