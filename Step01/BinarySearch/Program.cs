@@ -4,14 +4,14 @@
     public static void Main(string[] args)
     {
         //Generate random array
-        var randomArray = GenerateRandomArray();
+        int[]? randomArray = GenerateRandomArray();
 
         Console.WriteLine("UnSort Array :");
         //Print random array (unsorted)
         PrintArray(randomArray);
 
         //Sort random array with bubble sort
-        var sortedArray = BubbleSort.BubbleSort.Sort(randomArray);
+        int[]? sortedArray = BubbleSort.BubbleSort.Sort(randomArray);
 
         //Print bubble sort array (sorted)
         Console.WriteLine("\n\nSorted Array :");
@@ -20,7 +20,7 @@
         //Call binary search method , mentor my example is 5
         Console.WriteLine("\n\nResult is :");
 
-        BinarySearch.BinarySearch.Search(sortedArray, 5, 0, (0 + sortedArray.Length - 1)/2, sortedArray.Length - 1);
+        BinarySearch.BinarySearch.Search(sortedArray, 5, 0, (0 + sortedArray.Length - 1) / 2, sortedArray.Length - 1);
 
     }
     #endregion

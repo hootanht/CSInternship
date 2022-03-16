@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Fibonacci
+﻿namespace Fibonacci
 {
     public class Fibonacci
     {
@@ -27,7 +21,7 @@ namespace Fibonacci
             ////implementation other value
             for (int i = 2; i < numberOfCalculate; i++)
             {
-                result[i] = result[i-1] + result[i - 2];
+                result[i] = result[i - 1] + result[i - 2];
             }
 
             return result;

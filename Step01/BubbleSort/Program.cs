@@ -1,19 +1,17 @@
-﻿using BubbleSort;
-
-public class Program
+﻿public class Program
 {
     #region Main Method
     public static void Main(string[] args)
     {
         //Generate random array
-        var randomArray = GenerateRandomArray();
+        int[]? randomArray = GenerateRandomArray();
 
         Console.WriteLine("UnSort Array :");
         //Print random array (unsorted)
         PrintArray(randomArray);
 
         //Call bubble sort method
-        var result = BubbleSort.BubbleSort.Sort(randomArray);
+        int[]? result = BubbleSort.BubbleSort.Sort(randomArray);
 
         Console.WriteLine("\n\nSorted Array :");
         //Print bubble sort array (sorted)

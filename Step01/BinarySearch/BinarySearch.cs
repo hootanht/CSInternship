@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BinarySearch
+﻿namespace BinarySearch
 {
     public class BinarySearch
     {
@@ -22,7 +16,7 @@ namespace BinarySearch
             try
             {
                 //When we hit end of the steps
-                 if (start == end)
+                if (start == end)
                 {
                     if (array[mid] == expect)
                     {
