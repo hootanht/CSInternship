@@ -1,4 +1,4 @@
-﻿namespace BubbleSort
+﻿namespace BinarySearch
 {
     public class BubbleSort
     {

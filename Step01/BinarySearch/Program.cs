@@ -1,4 +1,6 @@
-﻿public class Program
+﻿using BinarySearch;
+
+public class Program
 {
     #region Main Method
     public static void Main(string[] args)
@@ -11,7 +13,7 @@
         PrintArray(randomArray);
 
         //Sort random array with bubble sort
-        int[]? sortedArray = BubbleSort.BubbleSort.Sort(randomArray);
+        int[]? sortedArray = BubbleSort.Sort(randomArray);
 
         //Print bubble sort array (sorted)
         Console.WriteLine("\n\nSorted Array :");
