@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BinarySearch\BinarySearch.csproj" />
     <ProjectReference Include="..\BubbleSort\BubbleSort.csproj" />
+    <ProjectReference Include="..\ChangeOperator\ChangeOperator.csproj" />
     <ProjectReference Include="..\Fibonacci\Fibonacci.csproj" />
   </ItemGroup>
 
