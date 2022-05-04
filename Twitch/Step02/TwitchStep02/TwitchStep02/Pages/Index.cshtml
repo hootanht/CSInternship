@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <span class="bg-success rounded p-3 text-white">Select a source</span>
+    <br />
+    <br />
+    <hr />
+    <div class="row mt-4">
+        <div class="col-4">
+            <a class="btn btn-primary w-50" asp-area="" asp-page="Customers">List Customers</a>
+            <a class="btn btn-primary w-50 mt-3" asp-area="" asp-page="AddCustomer">Add Customer</a>
+        </div>
+        <div class="col-4">
+            <a class="btn btn-warning w-50" href="#">List Students</a>
+        </div>
+        <div class="col-4">
+            <a class="btn btn-info w-50" href="#">List Employees</a>
+        </div>
+    </div>
+</div>
